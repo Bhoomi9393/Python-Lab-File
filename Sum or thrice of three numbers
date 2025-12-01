@@ -1,0 +1,9 @@
+num1 = int(input("Enter fisrt number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter thrd number: "))
+
+if num1 == num2 == num3:
+    print("Thrice: ", num1*3)
+
+else:
+    print("Sum: ",num1 + num2+ num3)
